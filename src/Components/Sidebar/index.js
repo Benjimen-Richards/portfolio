@@ -13,6 +13,8 @@ const Sidebar = (props) => {
         <li ><Link to='/' className={path=='/'?"Pathactive":""} style={{ textDecoration: "none", color: "black" }}>Home</Link></li>
         <li  ><Link to='/projects' className={path=='/projects'?"Pathactive":""} style={{ textDecoration: "none", color: "black" }}>Projects</Link></li>
         <li  ><Link to='/contact' className={path=='/contact'?"Pathactive":""} style={{ textDecoration: "none", color: "black" }}>Contact</Link></li>
+        <li><a href='https://github.com/Benjimen-Richards/portfolio/tree/main' style={{ textDecoration: "none", color: "black" }}>Get this Code</a></li>
+
       </ul>
     </div>
   )
